@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
-
-    <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" remote="github"/>
-    <project path="device/lge/msm7x27a-common" name="rebuild-l/android_device_lge_msm7x27a-common" revision="cm-11.0" remote="github"/>
-    <project path="device/lge/e610" name="rebuild-l/android_device_lge_e610" revision="cm-11.0" remote="github"/>
-    <project path="device/lge/p700" name="rebuild-l/android_device_lge_p700" revision="cm-11.0" remote="github"/>
-    <project path="kernel/lge/msm7x27a-common" name="TeamHackLG/lge-kernel-lproj" revision="android-msm-3.4-kk" remote="github"/>
-    <project path="vendor/lge" name="TeamHackLG/proprietary_vendor_lge" revision="cm-11.0" remote="github"/>
- 
+    <remove-project name="CyanogenMod/android_frameworks_av" />
+    <remove-project name="CyanogenMod/android_frameworks_native" />
+    
+    <project path="frameworks/av" name="legaCyMod/android_frameworks_av" revision="cm-11.0" remote="cm"/>
+    <project path="frameworks/native" name="legaCyMod/android_frameworks_native" revision="cm-11.0" remote="cm"/>
+    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" remote="cm"/>
+    <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" remote="cm"/>
+    <project path="device/lge/msm7x27a-common" name="rebuild-l/android_device_lge_msm7x27a-common" revision="cm-11.0" remote="cm"/>
+    <project path="device/lge/e610" name="rebuild-l/android_device_lge_e610" revision="cm-11.0" remote="cm"/>
+    <project path="device/lge/p700" name="rebuild-l/android_device_lge_p700" revision="cm-11.0" remote="cm"/>
+    <project path="kernel/lge/msm7x27a-common" name="TeamHackLG/lge-kernel-lproj" revision="android-msm-3.4-kk" remote="cm"/>
+    <project path="vendor/lge" name="TeamHackLG/proprietary_vendor_lge" revision="cm-11.0" remote="cm"/>
 </manifest>
