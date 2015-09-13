@@ -2,7 +2,6 @@
 <manifest>
     <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
 
-    <project path="external/webkit" name="legaCyMod/android_external_webkit" revision="cm-11.0" remote="cm"/>
     <project path="hardware/qcom/display-caf" name="TeamHackLG/android_hardware_qcom_display-caf" revision="cm-11.0" remote="cm"/>
     <project path="device/lge/msm7x27a-common" name="rebuild-l/android_device_lge_msm7x27a-common" revision="cm-11.0" remote="cm"/>
     <project path="device/lge/e610" name="rebuild-l/android_device_lge_e610" revision="cm-11.0" remote="cm"/>
