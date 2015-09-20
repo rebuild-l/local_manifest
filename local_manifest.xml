@@ -6,7 +6,6 @@
     <project path="device/lge/msm7x27a-common" name="rebuild-l/android_device_lge_msm7x27a-common" revision="cm-11.0" remote="cm"/>
     <project path="device/lge/e610" name="rebuild-l/android_device_lge_e610" revision="cm-11.0" remote="cm"/>
     <project path="device/lge/p700" name="rebuild-l/android_device_lge_p700" revision="cm-11.0" remote="cm"/>
-    <project path="kernel/lge/msm7x27a-common-l5" name="aidasaidas75/lge-kernel-lproj" revision="cm-12.1-exp" remote="cm"/>
     <project path="vendor/lge" name="TeamHackLG/proprietary_vendor_lge" revision="cm-11.0" remote="cm"/>
     <project path="kernel/lge/msm7x27a-common" name="TeamHackLG/lge-kernel-lproj" revision="android-msm-3.4-kk" remote="cm"/>
 </manifest>
